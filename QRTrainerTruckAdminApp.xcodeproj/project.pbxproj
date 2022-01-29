@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D76565C27412A9500C973D8 /* MyFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76565B27412A9500C973D8 /* MyFirebase.swift */; };
+		4D7A6553273D855900BFDB8F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A6552273D855900BFDB8F /* UserModel.swift */; };
+		4D7A6555273DA00600BFDB8F /* AddNewTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A6554273DA00600BFDB8F /* AddNewTrainingViewController.swift */; };
+		4D962CCB2741123700518653 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962CCA2741123700518653 /* HomeViewController.swift */; };
+		4D962CCD2741174100518653 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962CCC2741174100518653 /* LocationManager.swift */; };
+		4D962CCF2741280C00518653 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962CCE2741280C00518653 /* PostModel.swift */; };
+		4D962CD32741284700518653 /* PostCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962CD22741284700518653 /* PostCellModel.swift */; };
+		4D962CD5274128AC00518653 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962CD4274128AC00518653 /* ForumViewController.swift */; };
 		4D9E9755273D6EDA00481E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E9754273D6EDA00481E52 /* AppDelegate.swift */; };
 		4D9E9757273D6EDA00481E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E9756273D6EDA00481E52 /* SceneDelegate.swift */; };
-		4D9E9759273D6EDA00481E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E9758273D6EDA00481E52 /* ViewController.swift */; };
 		4D9E975C273D6EDA00481E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E975A273D6EDA00481E52 /* Main.storyboard */; };
 		4D9E975E273D6EDB00481E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E975D273D6EDB00481E52 /* Assets.xcassets */; };
 		4D9E9761273D6EDB00481E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E975F273D6EDB00481E52 /* LaunchScreen.storyboard */; };
+		4D9E976A273D795300481E52 /* TrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E9769273D795300481E52 /* TrainingModel.swift */; };
+		4D9E976C273D799000481E52 /* TrainingCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E976B273D799000481E52 /* TrainingCellModel.swift */; };
+		4D9E976F273D79C700481E52 /* TrainingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E976E273D79C700481E52 /* TrainingsViewController.swift */; };
+		4D9E9771273D7B3400481E52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E9770273D7B3400481E52 /* GoogleService-Info.plist */; };
+		76E0630C14F273E27D8B3F1F /* Pods_QRTrainerTruckAdminApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836F68C4EFBB6D453650D026 /* Pods_QRTrainerTruckAdminApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D76565B27412A9500C973D8 /* MyFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirebase.swift; sourceTree = "<group>"; };
+		4D7A6552273D855900BFDB8F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4D7A6554273DA00600BFDB8F /* AddNewTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTrainingViewController.swift; sourceTree = "<group>"; };
+		4D962CCA2741123700518653 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4D962CCC2741174100518653 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4D962CCE2741280C00518653 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		4D962CD22741284700518653 /* PostCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellModel.swift; sourceTree = "<group>"; };
+		4D962CD4274128AC00518653 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 		4D9E9751273D6EDA00481E52 /* QRTrainerTruckAdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRTrainerTruckAdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9E9754273D6EDA00481E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D9E9756273D6EDA00481E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D9E9758273D6EDA00481E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D9E975B273D6EDA00481E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D9E975D273D6EDB00481E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9E9760273D6EDB00481E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D9E9762273D6EDB00481E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9E9769273D795300481E52 /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
+		4D9E976B273D799000481E52 /* TrainingCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellModel.swift; sourceTree = "<group>"; };
+		4D9E976E273D79C700481E52 /* TrainingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsViewController.swift; sourceTree = "<group>"; };
+		4D9E9770273D7B3400481E52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		698B29DE97E85AEFFB8653A1 /* Pods-QRTrainerTruckAdminApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRTrainerTruckAdminApp.release.xcconfig"; path = "Target Support Files/Pods-QRTrainerTruckAdminApp/Pods-QRTrainerTruckAdminApp.release.xcconfig"; sourceTree = "<group>"; };
+		768D040E7B20FF815C640218 /* Pods-QRTrainerTruckAdminApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRTrainerTruckAdminApp.debug.xcconfig"; path = "Target Support Files/Pods-QRTrainerTruckAdminApp/Pods-QRTrainerTruckAdminApp.debug.xcconfig"; sourceTree = "<group>"; };
+		836F68C4EFBB6D453650D026 /* Pods_QRTrainerTruckAdminApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRTrainerTruckAdminApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E0630C14F273E27D8B3F1F /* Pods_QRTrainerTruckAdminApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A16E90281EC8655EA54A9BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				768D040E7B20FF815C640218 /* Pods-QRTrainerTruckAdminApp.debug.xcconfig */,
+				698B29DE97E85AEFFB8653A1 /* Pods-QRTrainerTruckAdminApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4D9E9748273D6EDA00481E52 = {
 			isa = PBXGroup;
 			children = (
 				4D9E9753273D6EDA00481E52 /* QRTrainerTruckAdminApp */,
 				4D9E9752273D6EDA00481E52 /* Products */,
+				1A16E90281EC8655EA54A9BB /* Pods */,
+				D10A90DE525731CD651A3B29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,50 @@
 		4D9E9753273D6EDA00481E52 /* QRTrainerTruckAdminApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D9E976D273D79A800481E52 /* ViewControllers */,
+				4D9E9768273D793E00481E52 /* Models */,
 				4D9E9754273D6EDA00481E52 /* AppDelegate.swift */,
 				4D9E9756273D6EDA00481E52 /* SceneDelegate.swift */,
-				4D9E9758273D6EDA00481E52 /* ViewController.swift */,
 				4D9E975A273D6EDA00481E52 /* Main.storyboard */,
 				4D9E975D273D6EDB00481E52 /* Assets.xcassets */,
 				4D9E975F273D6EDB00481E52 /* LaunchScreen.storyboard */,
+				4D9E9770273D7B3400481E52 /* GoogleService-Info.plist */,
 				4D9E9762273D6EDB00481E52 /* Info.plist */,
+				4D962CCC2741174100518653 /* LocationManager.swift */,
 			);
 			path = QRTrainerTruckAdminApp;
+			sourceTree = "<group>";
+		};
+		4D9E9768273D793E00481E52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E9769273D795300481E52 /* TrainingModel.swift */,
+				4D9E976B273D799000481E52 /* TrainingCellModel.swift */,
+				4D76565B27412A9500C973D8 /* MyFirebase.swift */,
+				4D7A6552273D855900BFDB8F /* UserModel.swift */,
+				4D962CCE2741280C00518653 /* PostModel.swift */,
+				4D962CD22741284700518653 /* PostCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D9E976D273D79A800481E52 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E976E273D79C700481E52 /* TrainingsViewController.swift */,
+				4D7A6554273DA00600BFDB8F /* AddNewTrainingViewController.swift */,
+				4D962CCA2741123700518653 /* HomeViewController.swift */,
+				4D962CD4274128AC00518653 /* ForumViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D10A90DE525731CD651A3B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836F68C4EFBB6D453650D026 /* Pods_QRTrainerTruckAdminApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D9E9765273D6EDB00481E52 /* Build configuration list for PBXNativeTarget "QRTrainerTruckAdminApp" */;
 			buildPhases = (
+				7B05A109CB6F298CE5C08C08 /* [CP] Check Pods Manifest.lock */,
 				4D9E974D273D6EDA00481E52 /* Sources */,
 				4D9E974E273D6EDA00481E52 /* Frameworks */,
 				4D9E974F273D6EDA00481E52 /* Resources */,
+				479C3BD6A17375AD3B53E4B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9E9761273D6EDB00481E52 /* LaunchScreen.storyboard in Resources */,
+				4D9E9771273D7B3400481E52 /* GoogleService-Info.plist in Resources */,
 				4D9E975E273D6EDB00481E52 /* Assets.xcassets in Resources */,
 				4D9E975C273D6EDA00481E52 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +209,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		479C3BD6A17375AD3B53E4B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRTrainerTruckAdminApp/Pods-QRTrainerTruckAdminApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRTrainerTruckAdminApp/Pods-QRTrainerTruckAdminApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRTrainerTruckAdminApp/Pods-QRTrainerTruckAdminApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B05A109CB6F298CE5C08C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRTrainerTruckAdminApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D9E974D273D6EDA00481E52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9E9759273D6EDA00481E52 /* ViewController.swift in Sources */,
 				4D9E9755273D6EDA00481E52 /* AppDelegate.swift in Sources */,
+				4D962CCF2741280C00518653 /* PostModel.swift in Sources */,
+				4D9E976A273D795300481E52 /* TrainingModel.swift in Sources */,
+				4D9E976F273D79C700481E52 /* TrainingsViewController.swift in Sources */,
+				4D962CCB2741123700518653 /* HomeViewController.swift in Sources */,
 				4D9E9757273D6EDA00481E52 /* SceneDelegate.swift in Sources */,
+				4D7A6553273D855900BFDB8F /* UserModel.swift in Sources */,
+				4D7A6555273DA00600BFDB8F /* AddNewTrainingViewController.swift in Sources */,
+				4D962CD5274128AC00518653 /* ForumViewController.swift in Sources */,
+				4D9E976C273D799000481E52 /* TrainingCellModel.swift in Sources */,
+				4D76565C27412A9500C973D8 /* MyFirebase.swift in Sources */,
+				4D962CD32741284700518653 /* PostCellModel.swift in Sources */,
+				4D962CCD2741174100518653 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +412,7 @@
 		};
 		4D9E9766273D6EDB00481E52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768D040E7B20FF815C640218 /* Pods-QRTrainerTruckAdminApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +424,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +436,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4D9E9767273D6EDB00481E52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698B29DE97E85AEFFB8653A1 /* Pods-QRTrainerTruckAdminApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +454,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
